@@ -1,0 +1,45 @@
+# .gitignore
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+env.bak/
+env/bin/activate
+env/lib/python*/site-packages/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+# *.txt
+
+# Miscellaneous
+*.swp
+*.swo
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+*.war
+*.whl
+*.egg
+
+# Operating System Files
+.fuse*
+
+# data
+data/
